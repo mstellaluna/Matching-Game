@@ -16,7 +16,7 @@ function generateFaces(){
   //Generating Image
    for (var i = 0; i < numberOfFaces; i++) {
      image = document.createElement("img");
-     image.src = "https://s5.postimg.org/jv06133on/smile.png";
+     image.src = "https://s5.postimg.cc/jv06133on/smile.png";
      image.style.top = Math.floor(Math.random() * 401) + "px";
      image.style.left = Math.floor(Math.random() * 401) + "px";
      theLeftSide.appendChild(image);
