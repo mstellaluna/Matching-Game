@@ -36,6 +36,7 @@ function generateFaces(){
     //EventHandler function for the body
     theBody.onclick = function gameOver() {
 alert("Game Over!");
+location.reload();
 theBody.onclick = null;
 theLeftSide.lastChild.onclick = null;
 
